@@ -1,8 +1,9 @@
 require 'bundler/setup'
 require 'pry'
 
-binding.pry # pry(main)> p method_or_variable #=> ?
-if false
+if true
+  binding.pry # pry(main)> p method_or_variable #=> ?
+else
   method_or_variable = 1
 end
 
