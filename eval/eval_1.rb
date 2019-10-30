@@ -1,2 +1,2 @@
-eval('method_or_variable') #=> NameError
+p eval('method_or_variable') #=> NameError
  
