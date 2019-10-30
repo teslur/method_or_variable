@@ -2,8 +2,9 @@ def method_or_variable
   'method'
 end
 
-if false
-  method_or_variable = 'variable'
+if true
+  p method_or_variable #=> "method"
 else
-  p method_or_variable #=> ?
+  method_or_variable = 'variable'
 end
+
